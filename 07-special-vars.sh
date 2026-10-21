@@ -3,6 +3,7 @@
 ### Special Variables ###
 
 echo "All arguments passed to the script: $@"
+echo "All arguments passed to the script as word: $*"
 echo "Number of arguments passed to the script: $#"
 echo "First variable: $1"
 echo "Script name: $0"
